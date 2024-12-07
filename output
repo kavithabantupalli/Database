@@ -1,0 +1,56 @@
+
+min salary: 2345
+
+max salary: 6453
+
+whose emp explain daa
+sweety
+nani
+
+emp names start with 's'
+(3, 'swap', 'cn', 2545)
+(4, 'sweety', 'daa', 5336)
+
+employee whose sal is in range of 1000 to 3000 
+(3, 'swap', 'cn', 2545)
+(6, 'venky', 'ai', 2345)
+
+even_id employee name
+akki
+sweety
+venky
+
+generate user id for each user by concatenation name and id(eg: nick_231)
+kavi_ 1
+akki_ 2
+swap_ 3
+sweety_ 4
+nani_ 5
+venky_ 6
+
+whose emp explain daa
+2
+
+count no of vowels in each employee name
+kavi 2
+akki 2
+swap 1
+sweety 2
+nani 2
+venky 1
+
+reverse the character in subjects and print only subjects
+dsa
+html
+cn
+daa
+daa
+ai
+
+print the name in lowercase, subject in uppercase
+kavi DSA
+akki HTML
+swap CN
+sweety DAA
+nani DAA
+venky AI
