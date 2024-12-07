@@ -52,7 +52,7 @@ for i in emp_db:
     print(i[1])
 
 #generate user id for each user by concatenation name and id(eg: nick_231)
-print("/ngenerate user id for each user by concatenation name and id(eg: nick_231)")
+print("\ngenerate user id for each user by concatenation name and id(eg: nick_231)")
 for i in emp_db:
   print(i[1]+"_",i[0])
 #count number of daa emp
