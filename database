@@ -1,0 +1,85 @@
+emp_db=[(1,'kavi','dsa',3452),
+        (2,'akki','html',4567),
+        (3,'swap','cn',2545),
+        (4,'sweety','daa',5336),
+        (5,'nani','daa',6453),
+        (6,'venky','ai',2345)]
+#least sal
+min_sal=float("inf")
+for i in emp_db:
+  if i[3]<min_sal:
+    min_sal=i[3]
+print("min salary:",min_sal)
+
+
+#max sal
+max_sal=0
+for i in emp_db:
+  if i[3]>max_sal:
+    max_sal=i[3]
+print("\nmax salary:",max_sal)
+
+
+
+#whose emp explain daa
+print("\nwhose emp explain daa")
+for i in emp_db:
+  if i[2]=="daa":
+    print(i[1])
+
+
+#based on salary sort the employee
+
+
+#print whose emp name start with 's'
+print("\nemp names start with 's'")
+for i in emp_db:
+  if i[1][0]=='s':
+    print(i)
+
+
+#print employee whose sal is in range of 1000 to 3000
+print("\nemployee whose sal is in range of 1000 to 3000 ")
+for i in emp_db:
+  if i[3]>1000 and i[3]<3000:
+    print(i)
+
+
+#print even id of employee
+print("\neven_id employee name")
+for i in emp_db:
+  if i[0]%2==0:
+    print(i[1])
+
+#generate user id for each user by concatenation name and id(eg: nick_231)
+print("/ngenerate user id for each user by concatenation name and id(eg: nick_231)")
+for i in emp_db:
+  print(i[1]+"_",i[0])
+#count number of daa emp
+print("whose emp explain daa")
+count=0
+for i in emp_db:
+  if i[2]=="daa":
+    count+=1
+print(count)
+
+#count no of vowels in each employee name
+print("\ncount no of vowels in each employee name")
+for i in emp_db:
+  name=i[1]
+  count=0
+  for l in name:
+    if l.lower() in 'aeiou':
+      count+=1
+  print(name,count)
+
+#reverse the character in subjects and print only subjects
+print("\nreverse the character in subjects and print only subjects")
+for i in emp_db:
+  print(i[2])
+
+#print the name in lowercase, subject in uppercase
+print("\nprint the name in lowercase, subject in uppercase")
+for i in emp_db:
+  print(i[1].lower(), i[2].upper())
+
